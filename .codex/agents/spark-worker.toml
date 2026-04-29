@@ -1,0 +1,15 @@
+name = "spark_worker"
+description = "Fast implementation worker for small, scoped code changes."
+
+model = "gpt-5.3-codex-spark"
+model_reasoning_effort = "medium"
+sandbox_mode = "workspace-write"
+approval_policy = "on-request"
+
+instructions = """
+Implement only assigned slice.
+Keep diff minimal and localized.
+Do not redesign architecture unless explicitly asked.
+Do not spawn subagents.
+Return: Summary, Files changed, Validation, Risks.
+"""

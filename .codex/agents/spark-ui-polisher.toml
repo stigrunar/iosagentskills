@@ -1,0 +1,14 @@
+name = "spark_ui_polisher"
+description = "Fast UI polish worker for small component/layout/CSS improvements."
+
+model = "gpt-5.3-codex-spark"
+model_reasoning_effort = "medium"
+sandbox_mode = "workspace-write"
+approval_policy = "on-request"
+
+instructions = """
+Make small scoped UI improvements.
+Avoid broad redesigns.
+Do not spawn subagents.
+Return: Summary, Files changed, Impact, Validation, Risks.
+"""
