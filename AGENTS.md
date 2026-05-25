@@ -1,12 +1,14 @@
 # AGENTS.md — iosagentskills
 ## Project anchor
-- Knowledge anchor: `/home/openclaw/knowledge/projects/iosagentskills.md`
+- Knowledge anchor: `projects/iosagentskills.md` in `stigrunar/openclaw-knowledge`
+- WSL local checkout: `/home/openclaw/knowledge/projects/iosagentskills.md`
 
 
 <!-- HERMES-PROJECT-CONTEXT:START -->
 ## Shared project context contract
-- Knowledge anchor: `/home/openclaw/knowledge/projects/iosagentskills.md`
-- Repo path: `/home/openclaw/projects/iosagentskills`
+- Knowledge anchor: `projects/iosagentskills.md` in `stigrunar/openclaw-knowledge`
+- WSL local checkout: `/home/openclaw/knowledge/projects/iosagentskills.md`
+- WSL repo path: `/home/openclaw/projects/iosagentskills`
 - Execution truth in this repo:
 - `TASKS.md`
 - `repo-local docs`
