@@ -5,6 +5,9 @@
 
 
 <!-- HERMES-PROJECT-CONTEXT:START -->
+## AGENTS hygiene
+
+Keep this file lean: project identity, canonical context links, owner/route boundaries, safety rules, and durable workflow invariants only. Do not use `AGENTS.md` as a changelog, run log, task history, acceptance receipt store, or scratchpad; move delivered history to `CHANGELOG.md`, active execution to `TASKS.md`, receipts/logs to `docs/receipts/` or `docs/reports/`, and broader durable policy to `/home/openclaw/knowledge`. `ROADMAP.md` `Now` is current/selected next work only; accepted/delivered slices move to `CHANGELOG.md`, with at most a compact `Recently completed` pointer outside `Now`.
 ## Shared project context contract
 - Knowledge anchor: `projects/iosagentskills.md` in `stigrunar/openclaw-knowledge`
 - WSL local checkout: `/home/openclaw/knowledge/projects/iosagentskills.md`
