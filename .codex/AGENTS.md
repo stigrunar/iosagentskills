@@ -1,5 +1,7 @@
 # Codex project context
+## AGENTS hygiene
 
+Keep this file lean and mirror repo-root `AGENTS.md`; do not use it as a changelog, run log, task history, acceptance receipt store, or scratchpad. Move delivered history to `CHANGELOG.md`, active execution to `TASKS.md`, receipts/logs to `docs/receipts/` or `docs/reports/`, and broader durable policy to `/home/openclaw/knowledge`. `ROADMAP.md` `Now` is current/selected next work only; accepted/delivered slices move to `CHANGELOG.md`, with at most a compact `Recently completed` pointer outside `Now`.
 Read repo-root `AGENTS.md` first.
 Knowledge anchor: `projects/iosagentskills.md` in `stigrunar/openclaw-knowledge`
 - WSL local checkout: `/home/openclaw/knowledge/projects/iosagentskills.md`
