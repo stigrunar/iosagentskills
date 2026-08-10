@@ -1,21 +1,27 @@
-# TASKS.md
+# Tasks — iOS Agent Skills
 
-Project: iosagentskills
-Status owner: DollyCode
+- Roadmap: `ROADMAP.md`
+- Backlog: `BACKLOG.md`
+- Delivered/local mirror history: `CHANGELOG.md`
+- Documentation contract: `docs/AGENTS.md`
+- Current execution truth: this file
 
-This file is the canonical project task list for this repo.
-Runtime mirrors (`state/active-work.json`, topic updates) must reflect this file, not replace it.
+## Current focus
 
-## Active tasks
+No active product implementation. The repository is in vendor/reference maintenance mode.
 
-### T001 Bootstrap repo task canon
-- Status: TODO
-- Last touched: 2026-04-18
-- Goal: Establish repo-local task canon and align topic/runtime mirrors.
-- Evidence: n/a
-- Blocker: n/a
-- Next: Add current real project tasks from topic history and pick first bounded implementation slice.
+## Active blockers / review gates
 
-## Done
+- None. Any upstream refresh or consuming-project adoption requires a fresh bounded review before execution.
 
-(append completed tasks/checkpoints here with evidence)
+## Next action
+
+Wait for a concrete consuming-project request or reviewed upstream-refresh trigger; then promote exactly one bounded candidate from `BACKLOG.md` into `ROADMAP.md` and this file.
+
+## Active Kanban / issue links
+
+- None. Kanban is out of scope unless explicitly adopted for a concrete lane.
+
+## Recently completed
+
+- 2026-08-10: Established the complete repo-readable continuity set and scoped documentation contract. See `CHANGELOG.md`.

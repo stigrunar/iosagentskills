@@ -1,17 +1,27 @@
 # AGENTS.md — iosagentskills
 ## Project anchor
 - Knowledge anchor: `projects/iosagentskills.md` in `stigrunar/openclaw-knowledge`
-- WSL local checkout: `/home/openclaw/knowledge/projects/iosagentskills.md`
+- Hermes host checkout: `/home/hermes/knowledge/projects/iosagentskills.md`
 
+## Canonical read order
+- `README.md` — upstream-authored library overview and skill graph.
+- `ROADMAP.md` — selected local maintenance direction.
+- `BACKLOG.md` — unselected candidates and review findings.
+- `TASKS.md` — current local execution truth.
+- `CHANGELOG.md` — accepted local mirror/governance history.
+- `docs/AGENTS.md` — scoped documentation placement and freshness rules.
+
+## Repository role
+This is a reusable iOS agent-skill/reference library, not an application product lane. Validate selected patterns against the consuming project's actual SDK and architecture before adoption.
 
 <!-- HERMES-PROJECT-CONTEXT:START -->
 ## AGENTS hygiene
 
-Keep this file lean: project identity, canonical context links, owner/route boundaries, safety rules, and durable workflow invariants only. Do not use `AGENTS.md` as a changelog, run log, task history, acceptance receipt store, or scratchpad; move delivered history to `CHANGELOG.md`, active execution to `TASKS.md`, receipts/logs to `docs/receipts/` or `docs/reports/`, and broader durable policy to `/home/openclaw/knowledge`. `ROADMAP.md` `Now` is current/selected next work only; accepted/delivered slices move to `CHANGELOG.md`, with at most a compact `Recently completed` pointer outside `Now`.
+Keep this file lean: project identity, canonical context links, owner/route boundaries, safety rules, and durable workflow invariants only. Do not use `AGENTS.md` as a changelog, run log, task history, acceptance receipt store, or scratchpad; move delivered history to `CHANGELOG.md`, active execution to `TASKS.md`, receipts/logs to `docs/receipts/` or `docs/reports/`, and broader durable policy to `/home/hermes/knowledge`. `ROADMAP.md` `Now` is current/selected next work only; accepted/delivered slices move to `CHANGELOG.md`, with at most a compact `Recently completed` pointer outside `Now`.
 ## Shared project context contract
 - Knowledge anchor: `projects/iosagentskills.md` in `stigrunar/openclaw-knowledge`
-- WSL local checkout: `/home/openclaw/knowledge/projects/iosagentskills.md`
-- WSL repo path: `/home/openclaw/projects/iosagentskills`
+- Hermes host checkout: `/home/hermes/knowledge/projects/iosagentskills.md`
+- Hermes host repo path: `/home/hermes/projects/iosagentskills`
 - Execution truth in this repo:
 - `TASKS.md`
 - `repo-local docs`

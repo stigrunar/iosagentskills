@@ -1,10 +1,12 @@
-# Docs map — iosagentskills
+# Documentation map — iOS Agent Skills
 
-Current repo truth is in the root files:
-- `README.md` — human navigation and skill loading examples
-- `AGENTS.md` — cross-harness agent contract
-- `TASKS.md` — execution truth and backlog
+Root canon:
 
-This repository is mostly a reusable iOS/SwiftUI skill and reference corpus. Put durable supporting notes under `docs/`; keep reusable skill source files in their existing repo structure, not in dated receipt folders.
+- library overview and skill graph: `../README.md`
+- selected maintenance direction: `../ROADMAP.md`
+- unselected candidates: `../BACKLOG.md`
+- current local execution truth: `../TASKS.md`
+- accepted local mirror/governance history: `../CHANGELOG.md`
+- scoped documentation placement and freshness: `AGENTS.md`
 
-Knowledge anchor: `projects/iosagentskills.md` in `stigrunar/openclaw-knowledge`.
+Reusable skill source remains in the existing `../skills/` hierarchy. Supporting compatibility notes, receipts, reports, and archived local material belong under `docs/` according to `AGENTS.md`.

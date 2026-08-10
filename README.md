@@ -6,6 +6,16 @@ Created and maintained by [**Alp Özcan**](https://github.com/alpozcan).
 
 ---
 
+## Local repository continuity
+
+- Selected maintenance direction: `ROADMAP.md`
+- Unselected candidates: `BACKLOG.md`
+- Current local execution truth: `TASKS.md`
+- Accepted local mirror/governance history: `CHANGELOG.md`
+- Documentation placement and freshness: `docs/AGENTS.md`
+
+This checkout is maintained as a reusable vendor/reference library, not as an application product lane.
+
 ## Why This Exists
 
 AI coding agents are powerful, but they lack the opinionated, battle-tested architectural knowledge that comes from shipping real iOS apps. They'll happily generate a `ViewController` with 2,000 lines, wire up Singletons everywhere, and skip actor isolation entirely.
