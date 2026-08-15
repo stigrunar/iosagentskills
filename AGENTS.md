@@ -56,3 +56,11 @@ Keep this file lean: project identity, canonical context links, owner/route boun
 - DonaldMacbook, Codex.app, and Mac-local shells must read this file first and then follow the knowledge anchor.
 - Mac-local screenshots, builds, device/Vectorworks proof, and receipts are evidence surfaces, not a separate canonical project brain.
 - When acting on an explicit Mac handoff, return concise `accepted`, `blocked`, or `done` with evidence.
+
+## Outcome specification gate
+
+- Before a selected `ROADMAP.md` outcome becomes an implementation task, record `spec_required: true|false` with a one-line reason in the roadmap item, `TASKS.md`, or the explicit handoff.
+- Set `spec_required: true` for work spanning multiple sessions/owners, multiple user journeys, product/design decisions, API/data/schema/permission/runtime contracts, cross-repo or subsystem boundaries, security/privacy risk, prior intent drift, or acceptance that must survive chat loss.
+- When required, run/follow `to-spec`, freeze the contract under the repo's existing spec convention or default `docs/specs/<spec-id>-<slug>.md`, and link the exact path and revision from `ROADMAP.md`, `TASKS.md`, and any implementation/Kanban handoff before work starts.
+- A small bounded change may use `spec_required: false` only when acceptance is explicit in `TASKS.md` or the handoff.
+- Never create placeholder specs or an empty `docs/specs/` directory; a root `SPEC.md` is not a universal convention.
