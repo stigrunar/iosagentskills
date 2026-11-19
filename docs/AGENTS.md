@@ -6,8 +6,8 @@ Read the root contract first: `../AGENTS.md`.
 
 - `../README.md` — upstream-authored library overview and skill graph
 - `../ROADMAP.md` — selected maintenance direction
-- `../BACKLOG.md` — unselected candidates
-- `../TASKS.md` — current local execution truth
+- `../BACKLOG.md` — technical idea details linked to Linear
+- `../TASKS.md` — technical continuity and evidence; Linear owns status
 - `../CHANGELOG.md` — accepted local mirror/governance history
 
 ## Placement
